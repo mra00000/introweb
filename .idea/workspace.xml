@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9de8bd87-257e-43f4-ac4f-510dfe8abfda" name="Default" comment="" />
+    <ignored path="IntroWeb.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="IntroWeb" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="console_2.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b152085e-c33a-4cd5-9413-5339f272d925/console_2.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DATABASE/b152085e-c33a-4cd5-9413-5339f272d925.SCHEMA:APDB.dbo" pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/b152085e-c33a-4cd5-9413-5339f272d925.SCHEMA:APDB.dbo">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>b152085e-c33a-4cd5-9413-5339f272d925.SCHEMA:APDB.dbo</OriginalElement>
+              <nodes>
+                <node x="307.6136363636364" y="348.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSES</node>
+                <node x="646.4375" y="359.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.ROOMS</node>
+                <node x="138.35795454545456" y="0.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.DEPARTMENTS</node>
+                <node x="727.6647727272727" y="158.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.CAMPUSES</node>
+                <node x="0.0" y="147.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.INSTRUCTORS</node>
+                <node x="444.0" y="147.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.TERMS</node>
+                <node x="79.61363636363637" y="370.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.STUDENTS</node>
+                <node x="440.4886363636364" y="583.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSE_SCHEDULES</node>
+                <node x="239.0" y="158.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.SUBJECTS</node>
+                <node x="205.23863636363637" y="627.5">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.STUDENT_COURSE</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.STUDENT_COURSE" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSES">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSE_SCHEDULES" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSES">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSE_SCHEDULES" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.ROOMS">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSES" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.CAMPUSES">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSES" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.INSTRUCTORS">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.ROOMS" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.CAMPUSES">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSES" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.TERMS">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.STUDENT_COURSE" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.STUDENTS">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSES" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.SUBJECTS">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.INSTRUCTORS" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.DEPARTMENTS">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.SUBJECTS" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.DEPARTMENTS">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.9466386554621846" x="181.23704283620714" y="306.55309027925927" />
+              <SelectedNodes>
+                <node>b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.STUDENT_COURSE</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/introweb" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/01c2b6dd-70d2-4303-b5b4-a684a88edeb8/console.sql" />
+        <option value="$PROJECT_DIR$/js/scroll.js" />
+        <option value="$PROJECT_DIR$/js/skrollr.js" />
+        <option value="$PROJECT_DIR$/js/wow.js" />
+        <option value="$PROJECT_DIR$/js/require.js" />
+        <option value="$PROJECT_DIR$/js/canvasjs.min.js" />
+        <option value="$PROJECT_DIR$/css/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5d9bbfa2-a880-4ba3-a4e1-051c853b35c5/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3c7dc3e4-11bf-4112-9f1c-714a1505a347/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5d9bbfa2-a880-4ba3-a4e1-051c853b35c5/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5d9bbfa2-a880-4ba3-a4e1-051c853b35c5/console_2.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b152085e-c33a-4cd5-9413-5339f272d925/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b152085e-c33a-4cd5-9413-5339f272d925/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b152085e-c33a-4cd5-9413-5339f272d925/console_2.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SE04560_MinhND_DBI202_PE_SE1108_05" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (Microsoft)&#10;MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\XAMPP\htdocs\IntroWeb\res\parallax" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Microsoft\Desktop\SE04560_MinhND_DBI202_PE_SE1108_05" />
+      <recent name="C:\Users\Microsoft\.PhpStorm2016.2\config\consoles\db\b152085e-c33a-4cd5-9413-5339f272d925" />
+      <recent name="C:\Users\Microsoft\Desktop\SE04560" />
+      <recent name="C:\Users\Microsoft\.PhpStorm2016.2\config\consoles\db\5d9bbfa2-a880-4ba3-a4e1-051c853b35c5" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9de8bd87-257e-43f4-ac4f-510dfe8abfda" name="Default" comment="" />
+      <created>1475955020240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1475955020240</updated>
+      <workItem from="1475955021842" duration="746000" />
+      <workItem from="1476078219086" duration="5170000" />
+      <workItem from="1476083446571" duration="15688000" />
+      <workItem from="1476100055517" duration="26954000" />
+      <workItem from="1476151533301" duration="7140000" />
+      <workItem from="1476161201296" duration="10525000" />
+      <workItem from="1476178053666" duration="6210000" />
+      <workItem from="1476244500500" duration="3467000" />
+      <workItem from="1476257730708" duration="1006000" />
+      <workItem from="1476259201480" duration="337000" />
+      <workItem from="1476259553442" duration="16308000" />
+      <workItem from="1476281263777" duration="15171000" />
+      <workItem from="1476329685653" duration="2047000" />
+      <workItem from="1476357328292" duration="120000" />
+      <workItem from="1476370705401" duration="8635000" />
+      <workItem from="1476411956474" duration="4621000" />
+      <workItem from="1476416924840" duration="325000" />
+      <workItem from="1476453181079" duration="2938000" />
+      <workItem from="1476499824283" duration="1315000" />
+      <workItem from="1476501180257" duration="3771000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="132494000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61367524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3285">
+          <caret line="219" column="20" selection-start-line="219" selection-start-column="20" selection-end-line="219" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3225">
+          <caret line="215" column="17" selection-start-line="215" selection-start-column="17" selection-end-line="215" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1770">
+          <caret line="118" column="14" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="238" column="1" selection-start-line="238" selection-start-column="1" selection-end-line="238" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/01c2b6dd-70d2-4303-b5b4-a684a88edeb8/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.catergories">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.catergories</OriginalElement>
+          <nodes>
+            <node x="7.5" y="125.0">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.users</node>
+            <node x="75.24999999999999" y="316.0">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.products</node>
+            <node x="209.5" y="136.0">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.catergories</node>
+            <node x="120.24999999999999" y="551.0">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.purchases</node>
+            <node x="0.0" y="0.0">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.logins</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.products" target="01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.catergories">
+              <point x="66.75" y="-92.5" />
+              <point x="275.5" y="291.0" />
+              <point x="319.0" y="291.0" />
+              <point x="0.0" y="59.5" />
+            </edge>
+            <edge source="01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.products" target="01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.users">
+              <point x="-66.75" y="-92.5" />
+              <point x="142.0" y="291.0" />
+              <point x="98.5" y="291.0" />
+              <point x="0.0" y="70.5" />
+            </edge>
+            <edge source="01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.purchases" target="01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.products">
+              <point x="0.0" y="-59.5" />
+              <point x="0.0" y="92.5" />
+            </edge>
+            <edge source="01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.users" target="01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.logins">
+              <point x="0.0" y="-70.5" />
+              <point x="0.0" y="37.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0884057971014491" x="172.0" y="421.0" />
+          <SelectedNodes>
+            <node>01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.purchases</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/01c2b6dd-70d2-4303-b5b4-a684a88edeb8">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>01c2b6dd-70d2-4303-b5b4-a684a88edeb8</OriginalElement>
+          <nodes>
+            <node x="" y="">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.users</node>
+            <node x="" y="">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.products</node>
+            <node x="" y="">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.purchases</node>
+            <node x="" y="">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.logins</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="329.0" y="319.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.logins">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.logins</OriginalElement>
+          <nodes>
+            <node x="" y="">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.users</node>
+            <node x="" y="">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.products</node>
+            <node x="" y="">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.catergories</node>
+            <node x="" y="">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.purchases</node>
+            <node x="" y="">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.logins</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5934131736526947" x="460.0" y="164.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/01c2b6dd-70d2-4303-b5b4-a684a88edeb8/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scroll.js" />
+    <entry file="file://$PROJECT_DIR$/js/skrollr.js" />
+    <entry file="file://$PROJECT_DIR$/js/wow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="513" column="0" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/require.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="27930" column="22" selection-start-line="27930" selection-start-column="22" selection-end-line="27930" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.catergories">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.catergories</OriginalElement>
+          <nodes>
+            <node x="" y="">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.users</node>
+            <node x="" y="">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.products</node>
+            <node x="" y="">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.catergories</node>
+            <node x="" y="">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.purchases</node>
+            <node x="" y="">01c2b6dd-70d2-4303-b5b4-a684a88edeb8.TABLE:ecdb.logins</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7681159420289855" x="498.0" y="335.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/canvasjs.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2732">
+          <caret line="583" column="196" selection-start-line="583" selection-start-column="196" selection-end-line="583" selection-end-column="196" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/fptImg/fpt_campus1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="6247" column="24" selection-start-line="6247" selection-start-column="24" selection-end-line="6247" selection-end-column="24" />
+          <caret line="6248" column="24" selection-start-line="6248" selection-start-column="24" selection-end-line="6248" selection-end-column="24" />
+          <caret line="6249" column="24" selection-start-line="6249" selection-start-column="24" selection-end-line="6249" selection-end-column="24" />
+          <caret line="6250" column="1" selection-start-line="6250" selection-start-column="1" selection-end-line="6250" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="246" column="12" selection-start-line="246" selection-start-column="12" selection-end-line="246" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5d9bbfa2-a880-4ba3-a4e1-051c853b35c5/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.authors">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.authors</OriginalElement>
+          <nodes>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.titles</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.discounts</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.stores</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.jobs</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.roysched</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.sales</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.employee</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.pub_info</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.publishers</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.authors</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.titleauthor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0283755997258397" x="400.0" y="332.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3c7dc3e4-11bf-4112-9f1c-714a1505a347/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3c7dc3e4-11bf-4112-9f1c-714a1505a347/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/3c7dc3e4-11bf-4112-9f1c-714a1505a347.SCHEMA:Northwind.dbo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>3c7dc3e4-11bf-4112-9f1c-714a1505a347.SCHEMA:Northwind.dbo</OriginalElement>
+          <nodes>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.TABLE:Northwind.dbo.Customers</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.TABLE:Northwind.dbo.Suppliers</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Category Sales for 1997</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.TABLE:Northwind.dbo.Order Details</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Quarterly Orders</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.TABLE:Northwind.dbo.Employees</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.TABLE:Northwind.dbo.EmployeeTerritories</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Product Sales for 1997</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Invoices</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Alphabetical list of products</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Order Subtotals</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Current Product List</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.TABLE:Northwind.dbo.Region</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Sales Totals by Amount</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Summary of Sales by Quarter</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.TABLE:Northwind.dbo.Categories</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Summary of Sales by Year</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.TABLE:Northwind.dbo.Products</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.TABLE:Northwind.dbo.sysdiagrams</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.TABLE:Northwind.dbo.Orders</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Order Details Extended</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.TABLE:Northwind.dbo.CustomerDemographics</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.TABLE:Northwind.dbo.Territories</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Customer and Suppliers by City</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.TABLE:Northwind.dbo.CustomerCustomerDemo</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Products by Category</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Sales by Category</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Orders Qry</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.TABLE:Northwind.dbo.Shippers</node>
+            <node x="" y="">3c7dc3e4-11bf-4112-9f1c-714a1505a347.VIEW:Northwind.dbo.Products Above Average Price</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8" x="604.0" y="271.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5d9bbfa2-a880-4ba3-a4e1-051c853b35c5/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5d9bbfa2-a880-4ba3-a4e1-051c853b35c5/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.SCHEMA:pubs.dbo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.SCHEMA:pubs.dbo</OriginalElement>
+          <nodes>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.titles</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.discounts</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.stores</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.sales</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.jobs</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.roysched</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.employee</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.pub_info</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.publishers</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.authors</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.VIEW:pubs.dbo.titleview</node>
+            <node x="" y="">5d9bbfa2-a880-4ba3-a4e1-051c853b35c5.TABLE:pubs.dbo.titleauthor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0236351071181755" x="1105.0" y="497.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b152085e-c33a-4cd5-9413-5339f272d925/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b152085e-c33a-4cd5-9413-5339f272d925/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.DEPARTMENTS">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.DEPARTMENTS</OriginalElement>
+          <nodes>
+            <node x="" y="">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSES</node>
+            <node x="" y="">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.ROOMS</node>
+            <node x="" y="">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.new_rooms</node>
+            <node x="" y="">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.DEPARTMENTS</node>
+            <node x="" y="">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.CAMPUSES</node>
+            <node x="" y="">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.INSTRUCTORS</node>
+            <node x="" y="">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSE_SCHEDULES</node>
+            <node x="" y="">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.STUDENTS</node>
+            <node x="" y="">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.TERMS</node>
+            <node x="" y="">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.SUBJECTS</node>
+            <node x="" y="">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.sysdiagrams</node>
+            <node x="" y="">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.STUDENT_COURSE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.346638655462185" x="516.0" y="567.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/b152085e-c33a-4cd5-9413-5339f272d925.SCHEMA:APDB.dbo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>b152085e-c33a-4cd5-9413-5339f272d925.SCHEMA:APDB.dbo</OriginalElement>
+          <nodes>
+            <node x="307.6136363636364" y="348.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSES</node>
+            <node x="646.4375" y="359.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.ROOMS</node>
+            <node x="138.35795454545456" y="0.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.DEPARTMENTS</node>
+            <node x="727.6647727272727" y="158.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.CAMPUSES</node>
+            <node x="0.0" y="147.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.INSTRUCTORS</node>
+            <node x="444.0" y="147.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.TERMS</node>
+            <node x="79.61363636363637" y="370.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.STUDENTS</node>
+            <node x="440.4886363636364" y="583.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSE_SCHEDULES</node>
+            <node x="239.0" y="158.0">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.SUBJECTS</node>
+            <node x="205.23863636363637" y="627.5">b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.STUDENT_COURSE</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.STUDENT_COURSE" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSES">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSE_SCHEDULES" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSES">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSE_SCHEDULES" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.ROOMS">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSES" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.CAMPUSES">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSES" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.INSTRUCTORS">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.ROOMS" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.CAMPUSES">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSES" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.TERMS">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.STUDENT_COURSE" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.STUDENTS">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.COURSES" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.SUBJECTS">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.INSTRUCTORS" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.DEPARTMENTS">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.SUBJECTS" target="b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.DEPARTMENTS">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9466386554621846" x="181.23704283620714" y="306.55309027925927" />
+          <SelectedNodes>
+            <node>b152085e-c33a-4cd5-9413-5339f272d925.TABLE:APDB.dbo.STUDENT_COURSE</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b152085e-c33a-4cd5-9413-5339f272d925/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
